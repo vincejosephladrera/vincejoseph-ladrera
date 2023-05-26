@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vincejoseph-ladrera/static/css/main.9ddc31c2.css",
-    "main.js": "/vincejoseph-ladrera/static/js/main.55c92dde.js",
+    "main.js": "/vincejoseph-ladrera/static/js/main.61704688.js",
     "static/media/Petshop-ecommerce.jpg": "/vincejoseph-ladrera/static/media/Petshop-ecommerce.6cf32370adc597d0b417.jpg",
     "static/media/React-Personal-Website.jpg": "/vincejoseph-ladrera/static/media/React-Personal-Website.0604be9c6752c736f0fc.jpg",
     "static/media/personal-website.jpg": "/vincejoseph-ladrera/static/media/personal-website.e29902cd7bf580102724.jpg",
@@ -9,10 +9,10 @@
     "static/media/undraw_web_developer_re_h7ie.svg": "/vincejoseph-ladrera/static/media/undraw_web_developer_re_h7ie.ebb432ff7949faebccb7ce8543dc086f.svg",
     "index.html": "/vincejoseph-ladrera/index.html",
     "main.9ddc31c2.css.map": "/vincejoseph-ladrera/static/css/main.9ddc31c2.css.map",
-    "main.55c92dde.js.map": "/vincejoseph-ladrera/static/js/main.55c92dde.js.map"
+    "main.61704688.js.map": "/vincejoseph-ladrera/static/js/main.61704688.js.map"
   },
   "entrypoints": [
     "static/css/main.9ddc31c2.css",
-    "static/js/main.55c92dde.js"
+    "static/js/main.61704688.js"
   ]
 }
