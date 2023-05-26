@@ -10,8 +10,8 @@ const projects = [
     img: ImageOne,
     description:
       "Personal Portfolio Website is a static website made to showcase all my works using React JS and Tailwind.",
-    livelink: "",
-    codelink: "",
+    livelink: "http://vincejosephladrera.github.io/vincejoseph-ladrera",
+    codelink: "https://github.com/vincejosephladrera/vincejoseph-ladrera",
   },
   {
     name: "Old Portfolio Website",
@@ -25,8 +25,8 @@ const projects = [
     img: ImageThree,
     description:
       "An ongoing ecommerce project which will be made using MERN Stack and Tailwind. Responsive landing page completed functionalities will soon be added.",
-    livelink: "",
-    codelink: "",
+    livelink: "https://vincejosephladrera.github.io/petshop/",
+    codelink: "https://github.com/vincejosephladrera/petshop",
   },
   {
     name: "JavaScript Calculator",
