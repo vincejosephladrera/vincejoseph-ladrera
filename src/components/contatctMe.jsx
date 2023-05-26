@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 const contatctMe = () => {
   return (
-    <div>
+    <div name="Contact">
       <div className="w-screen flex justify-center bg-slate-800">
         <div className="min-h-fit pt-[120px] max-w-[1440px] flex justify-start flex-grow flex-col px-5 gap-5 py-5">
           <h1 className="text-4xl uppercase underline text-rose-300 font-extrabold">Contact Me</h1>

@@ -3,7 +3,7 @@ import webDeveloper from "../components/undraw_web_developer_re_h7ie.svg";
 
 const homepage = () => {
   return (
-    <div>
+    <div name="Home">
       <div className="w-screen">
         <div className="bg-slate-800 min-h-[100vh] grid grid-cols-1 md:grid-cols-2 gap-x-[150px] xl:gap-x-[300px]">
           <div className="flex flex-col justify-center max-w-sm mx-auto text-rose-300 px-[20px] py-[60px] gap-2 lg:pl-[120px] lg:mr-0">

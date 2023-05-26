@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 export default function NavBar() {
   const [nav, setNav] = useState(false);
@@ -30,7 +31,9 @@ export default function NavBar() {
                 key={link.id}
                 className="list-none uppercase font-bold cursor-pointer text-rose-300 hover:text-yellow-200"
               >
-                {link.linkName}
+                <Link to={link.linkName} smooth duration={500}>
+                  {link.linkName}
+                </Link>
               </li>
             );
           })}
@@ -51,7 +54,9 @@ export default function NavBar() {
                   key={link.id}
                   className="list-none uppercase font-bold cursor-pointer text-rose-300 hover:text-yellow-200 text-4xl"
                 >
-                  {link.linkName}
+                  <Link to={link.linkName} smooth duration={500} onClick={() => setNav(!nav)}>
+                    {link.linkName}
+                  </Link>
                 </li>
               );
             })}
@@ -64,7 +69,9 @@ export default function NavBar() {
                   key={link.id}
                   className="list-none uppercase font-bold cursor-pointer text-rose-300 hover:text-yellow-200 text-4xl"
                 >
-                  {link.linkName}
+                  <Link to={link.linkName} smooth duration={500} onClick={() => setNav(!nav)}>
+                    {link.linkName}
+                  </Link>
                 </li>
               );
             })}

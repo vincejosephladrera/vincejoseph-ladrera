@@ -4,7 +4,7 @@ import SkillCards from "./skillCards.jsx";
 
 const about = () => {
   return (
-    <div>
+    <div name="About">
       <div className="w-screen overflow-x-hidden bg-slate-800 flex justify-center">
         <div className="flex flex-col justify-start pt-[120px] md:w-[75%] md:max-w-[1440px] bg-slate-800 min-h-screen gap-3 px-5 py-3">
           <h1 className=" text-4xl  uppercase underline text-rose-300 p-5 font-extrabold">

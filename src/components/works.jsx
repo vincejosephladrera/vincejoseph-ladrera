@@ -40,7 +40,7 @@ const projects = [
 
 const works = () => {
   return (
-    <div>
+    <div name="Works">
       <div className="min-h-screen bg-slate-800 px-5 text-rose-300 w-screen flex justify-center">
         <div className="flex flex-col flex-grow max-w-[1440px] gap-4">
           <h1 className="uppercase pt-[120px] text-4xl underline font-extrabold">My Works</h1>
