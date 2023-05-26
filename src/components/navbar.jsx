@@ -22,7 +22,9 @@ export default function NavBar() {
     <div className="xl-flex justify-center w-full bg-slate-800 z-[1] fixed">
       <div className="flex justify-between items-center h-20 px-[20px]  xl:max-w-[1440px] xl:mx-auto">
         <h1 className="text-3xl font-bold font-signature tracking-[7px] text-rose-300 cursor-pointer  hover:text-yellow-200 ">
-          Vince
+          <Link to="Home" smooth duration={500}>
+            Vince
+          </Link>
         </h1>
         <ul className="gap-10 hidden md:flex">
           {links.map((link) => {
